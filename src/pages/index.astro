@@ -1,0 +1,204 @@
+---
+const brandName = 'Zvláštní typy';
+const pageTitle = 'Zvláštní typy | Boutique modelingová a talentová agentura';
+const pageDescription =
+  'Boutique modelingová a talentová agentura zaměřená na výrazné, nekonvenční a zapamatovatelné osobnosti pro casting, kampaně, produkce, editoriály a kreativní projekty.';
+const ogImage = '/og-placeholder.svg';
+const canonicalUrl = 'https://www.zvlastnitypy.cz/';
+---
+
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="cs_CZ" />
+    <meta property="og:title" content="Zvláštní typy | Výrazné tváře pro kreativní projekty" />
+    <meta
+      property="og:description"
+      content="Zastupujeme tváře, které si zapamatuješ. Výrazné osobnosti pro casting, kampaně a produkce."
+    />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:url" content={canonicalUrl} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap.xml" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="logo">{brandName}</a>
+        <button class="menu-toggle" aria-label="Otevřít navigaci" aria-expanded="false">Menu</button>
+        <nav class="site-nav" aria-label="Hlavní navigace">
+          <a href="#agentura">O agentuře</a>
+          <a href="#zastupujeme">Koho zastupujeme</a>
+          <a href="#klienti">Pro koho jsme</a>
+          <a href="#jak">Jak fungujeme</a>
+          <a href="#kontakt">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Boutique modelingová a talentová agentura</p>
+            <h1>Zastupujeme tváře, které si zapamatuješ.</h1>
+            <p class="lead">
+              Boutique modelingová a talentová agentura zaměřená na výrazné, nekonvenční a
+              zapamatovatelné osobnosti pro casting, kampaně, produkce, editoriály a kreativní projekty.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#agentura">Zjistit více</a>
+              <a class="btn" href="#kontakt">Kontakt</a>
+              <a class="btn" href="https://instagram.com/zvlastnitypy" target="_blank" rel="noreferrer">Instagram</a>
+            </div>
+          </div>
+          <div class="placeholder-grid" aria-hidden="true">
+            <div class="placeholder tall"></div>
+            <div class="placeholder"></div>
+            <div class="placeholder"></div>
+            <div class="placeholder tall"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="agentura">
+        <div class="container narrow">
+          <h2>O agentuře</h2>
+          <p>
+            Zastupujeme lidi, kteří nepůsobí genericky. Hledáme výraz, charakter, zvláštnost,
+            přirozenou energii a přítomnost, která funguje před kamerou i v prostoru. Nejde nám o
+            uniformitu, ale o dojem.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="zastupujeme">
+        <div class="container">
+          <h2>Koho zastupujeme</h2>
+          <p class="section-intro">
+            Zaměřujeme se na osobnosti, které mají vizuální sílu, autenticitu a schopnost zaujmout
+            bez potřeby zapadnout do běžné šablony.
+          </p>
+          <ul class="tag-grid">
+            <li>výrazné tváře</li>
+            <li>nekonvenční vzhled</li>
+            <li>silné osobnosti</li>
+            <li>alternativní styl</li>
+            <li>zapamatovatelný výraz</li>
+            <li>charisma</li>
+            <li>přirozenost</li>
+            <li>lidi s hranou, napětím nebo zvláštností</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="klienti">
+        <div class="container">
+          <h2>Pro koho jsme</h2>
+          <p class="section-intro">
+            Dodáváme typy, které mají vizuální sílu, autenticitu a zapamatovatelnost.
+          </p>
+          <ul class="client-list">
+            <li>značky</li>
+            <li>produkce</li>
+            <li>fotografy</li>
+            <li>castingy</li>
+            <li>kreativními agenturami</li>
+            <li>tvůrčími týmy</li>
+            <li>módními a content projekty</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="jak">
+        <div class="container">
+          <h2>Jak fungujeme</h2>
+          <ol class="steps">
+            <li>
+              <h3>Kurátorujeme výrazné typy</h3>
+              <p>Vybíráme osobnosti, které mají charakter, přítomnost a zanechají stopu.</p>
+            </li>
+            <li>
+              <h3>Propojujeme je s relevantními projekty</h3>
+              <p>Spolupracujeme s klienty, kteří hledají autenticitu a vizuální sílu.</p>
+            </li>
+            <li>
+              <h3>Stavíme na dojmu, ne na uniformitě</h3>
+              <p>Nehledáme stejnost. Hledáme přesah, napětí a zapamatovatelnost.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section contact" id="kontakt">
+        <div class="container">
+          <h2>Kontakt</h2>
+          <div class="contact-grid">
+            <div>
+              <h3>E-mail</h3>
+              <a href="mailto:hello@zvlastnitypy.cz">hello@zvlastnitypy.cz</a>
+            </div>
+            <div>
+              <h3>Instagram</h3>
+              <a href="https://instagram.com/zvlastnitypy" target="_blank" rel="noreferrer">instagram.com/zvlastnitypy</a>
+            </div>
+            <div>
+              <h3>Město</h3>
+              <p>Praha</p>
+            </div>
+            <div>
+              <h3>Telefon</h3>
+              <p>+420 000 000 000</p>
+            </div>
+          </div>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:hello@zvlastnitypy.cz">Napsat e-mail</a>
+            <a class="btn" href="https://instagram.com/zvlastnitypy" target="_blank" rel="noreferrer">Instagram</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>{brandName}</strong>
+          <p>Neotřelé tváře. Silná přítomnost. Skutečný dojem.</p>
+        </div>
+        <div>
+          <p><a href="mailto:hello@zvlastnitypy.cz">hello@zvlastnitypy.cz</a></p>
+          <p><a href="https://instagram.com/zvlastnitypy" target="_blank" rel="noreferrer">Instagram</a></p>
+        </div>
+        <div>
+          <p>&copy; {new Date().getFullYear()} {brandName}. Všechna práva vyhrazena.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const toggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.site-nav');
+
+      toggle?.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        nav?.classList.toggle('open');
+      });
+
+      nav?.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          nav.classList.remove('open');
+          toggle?.setAttribute('aria-expanded', 'false');
+        });
+      });
+    </script>
+  </body>
+</html>
